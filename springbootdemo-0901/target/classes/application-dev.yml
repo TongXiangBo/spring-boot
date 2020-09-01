@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.101.183.124:3306/cfdb?useUnicode=true&characterEncoding=UTF-8
+    username: cfdb
+    password: cFuser_2071

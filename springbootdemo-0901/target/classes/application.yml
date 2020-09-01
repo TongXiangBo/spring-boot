@@ -1,0 +1,14 @@
+server:
+  port: 9001
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.example
+logging:
+  level:
+    com.example.mapper: debug
+spring:
+  application:
+    name: springbootdemp0901
+  profiles:
+    active: dev
